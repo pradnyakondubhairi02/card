@@ -1,0 +1,153 @@
+/* *{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Inter,sans-serif;
+    height: 100%;
+    background-color: #282D35;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #12222A;
+    height: 90px;
+    padding: 30px 25px;
+}
+
+nav > img{
+    height: 40px;
+    margin-right: 7px;
+}
+
+nav > h3 , nav > h4{
+          margin: 0;
+}
+
+nav > h3{
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+}
+
+nav > h4{
+    color: #DEEBF8;
+}
+
+main{
+   padding: 57px 27px;
+   color: white;
+  
+   background-repeat: no-repeat;
+  
+   background-position-x: left;
+   background-position-y: center;
+   overflow: hidden;
+   position: relative;
+}
+
+main >  background-image{
+    opacity: 1;
+}
+
+.main--title{
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+
+}
+
+.facts{
+    max-width: 400px;
+    margin-top: 46px;
+    align-items: center;
+}
+
+.facts > li{
+    line-height: 19px;
+    padding-block: 10px;
+    
+}
+
+.facts > li::marker{
+    font-size: 1.4rem;
+    color: #61DAFB;
+} */
+
+body{
+    background-color: rgb(66, 63, 63);
+    /* font-family:'Times New Roman', Times, serif; */
+    color: white;
+}
+.card {
+    margin: 20px;
+    background-color:rgb(1, 10, 34);
+    height: fit-content;
+    width: 200px;
+    padding: 40px;
+    border-radius: 30px;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card img{
+    height: 200px;
+ 
+    
+}
+
+.card > h3 {
+    color: white;
+   
+}
+
+.card > h6{
+    color: white;
+    margin-top: -5%;
+    text-align: center;
+}
+
+.card > h5 {
+    color: wheat;
+    margin-top: -5%;
+    /* margin-left: 2%; */
+     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.but{
+    margin-top: -5%;
+}
+
+.but > button {
+    /* padding: 5px; */
+    padding-left: 8%;
+    padding-right: 8%;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+   
+}
+
+.mail {
+    margin-right: 8px;
+    margin-left: 5px;
+}
+
+.linkedin {
+    margin-left: 15px;
+}
+
+.about {
+    text-justify: auto;
+}
+.about p{
+    /* width: 100%; */
+    padding-left: 3%;
+    margin-top: -5%;
+    font-size: small;
+}
